@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Default Title{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with optional header image -->
+        <header>
+            <h1>My Blog</h1>
+            <!-- Uncomment the following line to include a header image -->
+            <!-- <img src="{{ url_for('static', filename='images/header-image.jpg') }}" alt="Header Image"> -->
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('categories') }}">Categories</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content -->
+        <main>
+            {% block content %}
+            <!-- Content for each page will be inserted here -->
+            {% endblock %}
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 Learning to Tech. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

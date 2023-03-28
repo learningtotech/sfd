@@ -1,0 +1,112 @@
+/* Reset some browser defaults */
+body, figure, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    padding: 20px 0;
+    background-color: #333;
+}
+
+header img {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Blog article styles */
+article {
+    margin-bottom: 40px;
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    margin-bottom: 5px;
+}
+
+.article-metadata {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.article-metadata span {
+    margin-right: 10px;
+}
