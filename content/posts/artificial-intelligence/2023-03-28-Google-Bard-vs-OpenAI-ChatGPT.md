@@ -1,3 +1,10 @@
+---
+title: "Google Bard vs. OpenAI ChatGPT 4.0"
+date: 2023-03-28
+author: "Andy Jones"
+category: "Artifical Intelligence"
+---
+
 ## Introduction
 
 In today's rapidly evolving technological landscape, AI language models have become a widely used tool for various tasks, from generating creative content to providing customer support. Two popular AI language models, OpenAI's ChatGPT and Google's Bard, have emerged as frontrunners in this space. This article compares the responses of these two AI models to six different questions, highlighting the strengths of ChatGPT and areas where Google Bard could improve. The comparison aims to provide a better understanding of each model's capabilities to help users make informed decisions when selecting an AI language model.
